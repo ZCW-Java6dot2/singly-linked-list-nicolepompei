@@ -38,10 +38,14 @@ public class SinglyLinkedList <SomeType extends Comparable<SomeType>> {
 
 
     //appends the specified element to the end of this list
-    public void add(SomeType data){
+    public void add(SomeType obj){
         if (head == null)
-            addFirstElement(data);
-
+            addFirstElement(obj);
+        else if (tail == null)
+            addSecondElement(obj);
+        else
+            addThirdElementOnwards(obj);
+        length++;
     }
 
     public void shiftIndex(Node<SomeType> node, int currentIndex){
@@ -133,7 +137,7 @@ public class SinglyLinkedList <SomeType extends Comparable<SomeType>> {
 
     public SomeType get(int index){
         int tempIndex = head.getIndex();
-        Node<SomeType> tempNode = (Node<SomeType>) head;
+        Node<SomeType> tempNode = head;
         while(tempIndex != index){
             tempIndex++;
             tempNode = tempNode.getNext();
