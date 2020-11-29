@@ -432,4 +432,24 @@ public class SinglyLinkedListTest {
         Assert.assertNotSame(stringList, stringListCopy);
     }
 
+    @Test
+    public void copyAllValuesTest(){
+        SinglyLinkedList<String> stringListCopy = stringList.copy();
+
+        for (int i = 0; i < 5; i++) {
+            String expected = stringList.get(i);
+            String actual = stringListCopy.get(i);
+
+            Assert.assertEquals(expected, actual);
+        }
+
+        int expectedSize = stringList.size();
+        int actualSize = stringListCopy.size();
+
+        Assert.assertEquals(expectedSize, actualSize);
+
+        Assert.assertNotSame(stringList, stringListCopy);
+
+    }
+
 }
