@@ -60,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.copyAllValuesTest">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.bubbleSortTest4">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -115,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.copyAllValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.bubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -125,14 +125,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="copyAllValuesTest" />
+      <option name="METHOD_NAME" value="bubbleSortTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.findFifthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.bubbleSortTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -142,14 +142,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="findFifthTest" />
+      <option name="METHOD_NAME" value="bubbleSortTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.stringListCopySizeOneValueLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.bubbleSortTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +159,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="stringListCopySizeOneValueLong" />
+      <option name="METHOD_NAME" value="bubbleSortTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.stringListCopyTwoValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.bubbleSortTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -176,14 +176,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="stringListCopyTwoValuesTest" />
+      <option name="METHOD_NAME" value="bubbleSortTest3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testCopyEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.bubbleSortTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testCopyEmpty" />
+      <option name="METHOD_NAME" value="bubbleSortTest4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -269,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyLinkedListTest.copyAllValuesTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.stringListCopyTwoValuesTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testCopyEmpty" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.stringListCopySizeOneValueLong" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.findFifthTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.bubbleSortTest4" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.bubbleSortTest3" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.bubbleSortTest2" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.bubbleSortTest1" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.bubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -311,22 +311,22 @@
     <state x="515" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1606600246841" />
     <state x="2053" y="276" key="#com.intellij.ide.util.MemberChooser/0.23.1280.721/1280.23.1920.1057@1280.23.1920.1057" timestamp="1606270051824" />
     <state x="2053" y="276" key="#com.intellij.ide.util.MemberChooser/0.23.1280.723/1280.23.1920.1057@1280.23.1920.1057" timestamp="1606270403661" />
-    <state width="1153" height="181" key="GridCell.Tab.0.bottom" timestamp="1606668484134">
+    <state width="1153" height="181" key="GridCell.Tab.0.bottom" timestamp="1606669911061">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606668484134" />
-    <state width="1153" height="181" key="GridCell.Tab.0.center" timestamp="1606668484132">
+    <state width="1153" height="181" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606669911061" />
+    <state width="1153" height="181" key="GridCell.Tab.0.center" timestamp="1606669911059">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606668484132" />
-    <state width="1153" height="181" key="GridCell.Tab.0.left" timestamp="1606668484130">
+    <state width="1153" height="181" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606669911059" />
+    <state width="1153" height="181" key="GridCell.Tab.0.left" timestamp="1606669911057">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606668484130" />
-    <state width="1153" height="181" key="GridCell.Tab.0.right" timestamp="1606668484133">
+    <state width="1153" height="181" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606669911057" />
+    <state width="1153" height="181" key="GridCell.Tab.0.right" timestamp="1606669911060">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606668484133" />
+    <state width="1153" height="181" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606669911060" />
     <state width="1153" height="226" key="GridCell.Tab.1.bottom" timestamp="1606665413273">
       <screen x="0" y="23" width="1280" height="728" />
     </state>

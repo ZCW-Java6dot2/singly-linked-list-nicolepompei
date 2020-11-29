@@ -452,4 +452,55 @@ public class SinglyLinkedListTest {
 
     }
 
+    @Test
+    public void bubbleSortTest(){
+        stringList.bubbleSort();
+
+        String expected = fifth;
+        String actual = stringList.get(0);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void bubbleSortTest1(){
+        stringList.bubbleSort();
+
+        String expected = first;
+        String actual = stringList.get(1);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void bubbleSortTest2(){
+        stringList.bubbleSort();
+
+        String expected = fourth;
+        String actual = stringList.get(2);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void bubbleSortTest3(){
+        stringList.bubbleSort();
+
+        String expected = second;
+        String actual = stringList.get(3);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void bubbleSortTest4(){
+        stringList.bubbleSort();
+
+        String expected = third;
+        String actual = stringList.get(4);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+
 }
