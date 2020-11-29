@@ -349,4 +349,31 @@ public class SinglyLinkedListTest {
 
     }
 
+    @Test
+    public void stringListCopySizeOneValueLong(){
+        for (int i = 0; i < 4; i++) {
+            stringList.remove(0);
+        }
+
+        SinglyLinkedList<String> stringListCopy = stringList.copy();
+
+        String expectedValueOriginal = fifth;
+        String actualValueOriginl = stringList.get(0);
+        String expectedValueCopy = fifth;
+        String actualValueCopy = stringListCopy.get(0);
+
+        int expectedSizeOriginal = 1;
+        int actualSizeOriginal = stringList.size();
+        int expectedSizeCopy = 1;
+        int actualSizeCopy = stringListCopy.size();
+
+        Assert.assertEquals(expectedValueOriginal, actualValueOriginl);
+        Assert.assertEquals(expectedSizeOriginal, actualSizeOriginal);
+        Assert.assertEquals(expectedValueCopy, actualValueCopy);
+        Assert.assertEquals(expectedSizeCopy, actualSizeCopy);
+        Assert.assertEquals(actualValueOriginl, actualValueCopy);
+        Assert.assertEquals(actualSizeOriginal, actualSizeCopy);
+        Assert.assertNotSame(stringList, stringListCopy);
+    }
+
 }
