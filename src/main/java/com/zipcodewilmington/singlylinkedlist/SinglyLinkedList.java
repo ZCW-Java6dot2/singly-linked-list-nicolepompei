@@ -122,13 +122,13 @@ public class SinglyLinkedList <SomeType extends Comparable<SomeType>> {
         if(head == null)
             return false;
         else
-            for(int i = 0; i < this.size(); i++){
-                if(tempNode.equals(obj))
-                    return true;
-                else
-                    tempNode = tempNode.getNext();
-                }
-            return false;
+        for(int i = 0; i < this.size(); i++){
+            if(tempNode.getObj().equals(obj))
+                return true;
+            else
+                tempNode = tempNode.getNext();
+            }
+        return false;
     }
 
     public int size(){

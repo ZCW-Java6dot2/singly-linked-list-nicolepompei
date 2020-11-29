@@ -206,12 +206,77 @@ public class SinglyLinkedListTest {
 
     @Test
     public void removeLastIndex(){
-        String expected = third;
+        String expected = fourth;
         stringList.remove(4);
 
         String actual = stringList.get(3);
 
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void removeLastIndex1(){
+        String expected = first;
+        stringList.remove(4);
+
+        String actual = stringList.get(0);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void removeLastIndex2(){
+        String expected = second;
+        stringList.remove(4);
+
+        String actual = stringList.get(1);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void removeLastIndex3(){
+        String expected = third;
+        stringList.remove(4);
+
+        String actual = stringList.get(2);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void containsFirstTest(){
+        String expected = first;
+
+        Assert.assertTrue(stringList.contains(expected));
+    }
+
+    @Test
+    public void containsSecondTest(){
+        String expected = second;
+
+        Assert.assertTrue(stringList.contains(expected));
+    }
+
+    @Test
+    public void containsThirdTest(){
+        String expected = third;
+
+        Assert.assertTrue(stringList.contains(expected));
+    }
+
+    @Test
+    public void containsFourthTest(){
+        String expected = fourth;
+
+        Assert.assertTrue(stringList.contains(expected));
+    }
+
+    @Test
+    public void containsFifthTest(){
+        String expected = fifth;
+
+        Assert.assertTrue(stringList.contains(expected));
     }
 
 }
