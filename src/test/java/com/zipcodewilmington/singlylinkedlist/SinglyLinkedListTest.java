@@ -376,4 +376,60 @@ public class SinglyLinkedListTest {
         Assert.assertNotSame(stringList, stringListCopy);
     }
 
+    @Test
+    public void stringListCopyEmptyTest(){
+        for (int i = 0; i < 5; i++) {
+            stringList.remove(0);
+        }
+
+    SinglyLinkedList<String> stringListCopy = stringList.copy();
+
+        int expectedSizeOriginal = 0;
+        int actualSizeOriginal = stringList.size();
+        int expectedSizeCopy = 0;
+        int actualSizeCopy = stringListCopy.size();
+
+        Assert.assertEquals(expectedSizeOriginal, actualSizeOriginal);
+        Assert.assertEquals(expectedSizeCopy, actualSizeCopy);
+        Assert.assertNotSame(stringList, stringListCopy);
+    }
+
+    @Test
+    public void stringListCopyTwoValuesTest(){
+        for (int i = 0; i < 3; i++) {
+            stringList.remove(0);
+        }
+
+    SinglyLinkedList<String> stringListCopy = stringList.copy();
+
+        String expectedValueOneOriginal = fourth;
+        String actualValueOneOriginl = stringList.get(0);
+        String expectedValueOneCopy = fourth;
+        String actualValueOneCopy = stringListCopy.get(0);
+
+        String expectedValueTwoOriginal = fifth;
+        String actualValueTwoOriginal = stringList.get(1);
+        String expectedValueTwoCopy = fifth;
+        String actualValueTwoCopy = stringListCopy.get(1);
+
+        int expectedSizeOriginal = 2;
+        int actualSizeOriginal = stringList.size();
+        int expectedSizeCopy = 2;
+        int actualSizeCopy = stringListCopy.size();
+
+        Assert.assertEquals(expectedValueOneOriginal, actualValueOneOriginl);
+        Assert.assertEquals(expectedValueOneCopy, actualValueOneCopy);
+        Assert.assertEquals(actualValueOneOriginl, actualValueOneCopy);
+
+        Assert.assertEquals(expectedValueTwoOriginal, actualValueTwoOriginal);
+        Assert.assertEquals(expectedValueTwoCopy, actualValueTwoCopy);
+        Assert.assertEquals(actualValueTwoOriginal, actualValueTwoCopy);
+
+        Assert.assertEquals(expectedSizeOriginal, actualSizeOriginal);
+        Assert.assertEquals(expectedSizeCopy, actualSizeCopy);
+        Assert.assertEquals(actualSizeOriginal, actualSizeCopy);
+
+        Assert.assertNotSame(stringList, stringListCopy);
+    }
+
 }
