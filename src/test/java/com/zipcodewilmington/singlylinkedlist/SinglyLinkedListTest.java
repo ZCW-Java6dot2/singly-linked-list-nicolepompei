@@ -502,5 +502,65 @@ public class SinglyLinkedListTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void sliceTest(){
+        SinglyLinkedList<String> slicedStringList = stringList.slice(1,4);
+
+        String expectedOriginal = second;
+        String actualOriginal = stringList.get(1);
+
+        String expectedCopy = second;
+        String actualCopy = slicedStringList.get(0);
+
+        Assert.assertEquals(expectedOriginal, actualOriginal);
+        Assert.assertEquals(expectedCopy, actualCopy);
+        Assert.assertEquals(expectedOriginal, actualCopy);
+    }
+
+    @Test
+    public void sliceTest1(){
+        SinglyLinkedList<String> slicedStringList = stringList.slice(1,4);
+
+        String expectedOriginal = third;
+        String actualOriginal = stringList.get(2);
+
+        String expectedCopy = third;
+        String actualCopy = slicedStringList.get(1);
+
+        Assert.assertEquals(expectedOriginal, actualOriginal);
+        Assert.assertEquals(expectedCopy, actualCopy);
+        Assert.assertEquals(expectedOriginal, actualCopy);
+    }
+
+    @Test
+    public void sliceTest2(){
+        SinglyLinkedList<String> slicedStringList = stringList.slice(1,4);
+
+        String expectedOriginal = fourth;
+        String actualOriginal = stringList.get(3);
+
+        String expectedCopy = fourth;
+        String actualCopy = slicedStringList.get(2);
+
+        Assert.assertEquals(expectedOriginal, actualOriginal);
+        Assert.assertEquals(expectedCopy, actualCopy);
+        Assert.assertEquals(expectedOriginal, actualCopy);
+    }
+
+    @Test
+    public void sliceTest3(){
+        SinglyLinkedList<String> slicedStringList = stringList.slice(1,4);
+
+        String expectedOriginal = fifth;
+        String actualOriginal = stringList.get(4);
+
+        String expectedCopy = fifth;
+        String actualCopy = slicedStringList.get(3);
+
+        Assert.assertEquals(expectedOriginal, actualOriginal);
+        Assert.assertEquals(expectedCopy, actualCopy);
+        Assert.assertEquals(expectedOriginal, actualCopy);
+    }
+
 
 }
