@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.containsFifthTest">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.findFifthTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -116,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.containsFifthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findFifthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +125,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="containsFifthTest" />
+      <option name="METHOD_NAME" value="findFifthTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.containsFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +142,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="containsFirstTest" />
+      <option name="METHOD_NAME" value="findFirstTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.containsFourthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findFourthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -160,14 +159,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="containsFourthTest" />
+      <option name="METHOD_NAME" value="findFourthTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.containsSecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findSecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -177,14 +176,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="containsSecondTest" />
+      <option name="METHOD_NAME" value="findSecondTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.containsThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.findThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -194,7 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="containsThirdTest" />
+      <option name="METHOD_NAME" value="findThirdTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -270,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyLinkedListTest.containsFifthTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.containsFourthTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.containsThirdTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.containsSecondTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.containsFirstTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findFifthTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findFourthTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findThirdTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findSecondTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.findFirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -308,22 +307,22 @@
     <state x="515" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1606600246841" />
     <state x="2053" y="276" key="#com.intellij.ide.util.MemberChooser/0.23.1280.721/1280.23.1920.1057@1280.23.1920.1057" timestamp="1606270051824" />
     <state x="2053" y="276" key="#com.intellij.ide.util.MemberChooser/0.23.1280.723/1280.23.1920.1057@1280.23.1920.1057" timestamp="1606270403661" />
-    <state width="1153" height="181" key="GridCell.Tab.0.bottom" timestamp="1606667055783">
+    <state width="1153" height="181" key="GridCell.Tab.0.bottom" timestamp="1606667349084">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667055783" />
-    <state width="1153" height="181" key="GridCell.Tab.0.center" timestamp="1606667055777">
+    <state width="1153" height="181" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667349084" />
+    <state width="1153" height="181" key="GridCell.Tab.0.center" timestamp="1606667349081">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667055777" />
-    <state width="1153" height="181" key="GridCell.Tab.0.left" timestamp="1606667055774">
+    <state width="1153" height="181" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667349081" />
+    <state width="1153" height="181" key="GridCell.Tab.0.left" timestamp="1606667349076">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667055774" />
-    <state width="1153" height="181" key="GridCell.Tab.0.right" timestamp="1606667055781">
+    <state width="1153" height="181" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667349076" />
+    <state width="1153" height="181" key="GridCell.Tab.0.right" timestamp="1606667349083">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1153" height="181" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667055781" />
+    <state width="1153" height="181" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1920.1057@0.23.1280.728" timestamp="1606667349083" />
     <state width="1153" height="226" key="GridCell.Tab.1.bottom" timestamp="1606665413273">
       <screen x="0" y="23" width="1280" height="728" />
     </state>

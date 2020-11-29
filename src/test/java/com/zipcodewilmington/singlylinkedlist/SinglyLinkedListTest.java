@@ -279,4 +279,74 @@ public class SinglyLinkedListTest {
         Assert.assertTrue(stringList.contains(expected));
     }
 
+    @Test
+    public void sizeTest(){
+        int expected = 5;
+
+        int actual = stringList.size();
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void emptyListSizeTest(){
+        SinglyLinkedList<String> emptyList = new SinglyLinkedList<String>();
+        int expected = 0;
+        int actual = emptyList.size();
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void emptyListContainsTest(){
+        SinglyLinkedList<String> emptyList = new SinglyLinkedList<String>();
+
+        Assert.assertFalse(emptyList.contains(first));
+    }
+
+    @Test
+    public void findFirstTest(){
+        int expected = 0;
+        int actual = stringList.find(first);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void findSecondTest(){
+        int expected = 1;
+        int actual = stringList.find(second);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void findThirdTest(){
+        int expected = 2;
+        int actual = stringList.find(third);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void findFourthTest(){
+        int expected = 3;
+        int actual = stringList.find(fourth);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void findFifthTest(){
+        int expected = 4;
+        int actual = stringList.find(fifth);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
 }
