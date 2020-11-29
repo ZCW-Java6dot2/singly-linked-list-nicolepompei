@@ -5,7 +5,7 @@ import com.sun.tools.internal.ws.wsdl.document.soap.SOAP12Binding;
 /**
  * Created by leon on 1/10/18.
  */
-public class SinglyLinkedList <SomeType> implements Comparable<SomeType> {
+public class SinglyLinkedList <SomeType extends Comparable<SomeType>> {
 
     private Node<SomeType> head;
     private Node<SomeType> tail;
@@ -230,9 +230,4 @@ public class SinglyLinkedList <SomeType> implements Comparable<SomeType> {
         }
     }
 
-
-
-    public int compareTo(SomeType o) {
-        return 0;
-    }
 }
