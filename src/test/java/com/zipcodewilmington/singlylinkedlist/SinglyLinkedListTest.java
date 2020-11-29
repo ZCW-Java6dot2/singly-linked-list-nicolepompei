@@ -562,5 +562,58 @@ public class SinglyLinkedListTest {
         Assert.assertEquals(expectedOriginal, actualCopy);
     }
 
+    @Test
+    public void reverseTest(){
+        stringList.reverse();
+
+        String expected = fifth;
+        String actual = stringList.get(0);
+
+        Assert.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void reverseTest1(){
+        stringList.reverse();
+
+        String expected = fourth;
+        String actual = stringList.get(1);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void reverseTest2(){
+        stringList.reverse();
+
+        String expected = third;
+        String actual = stringList.get(2);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void reverseTest3(){
+        stringList.reverse();
+
+        String expected = second;
+        String actual = stringList.get(3);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void reverseTest4(){
+        stringList.reverse();
+
+        String expected = first;
+        String actual = stringList.get(4);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+
+
 
 }
